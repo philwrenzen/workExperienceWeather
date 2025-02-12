@@ -1,5 +1,3 @@
-// https://open-meteo.com/en/docs#hourly=temperature_2m,weather_code
-
 // Copilot prompt: How can I get data from open-meteo by using fetch in javascript
 
 const fetchWeatherData = async (latitude, longitude, placeName) => {
@@ -13,8 +11,7 @@ const fetchWeatherData = async (latitude, longitude, placeName) => {
       throw new Error('Network response was not ok');
     }
     const data = await response.json();
-    // console.log(data);
-    // updated to include weather description
+    // updated to include placeName and weather description
     console.log({ ...data, placeName, weatherDescription: weatherCodeToDescription(data.current_weather.weathercode) });
   } catch (error) {
     console.error('Error fetching weather data:', error);
@@ -89,14 +86,4 @@ const getWeather = async (placeName) => {
   await fetchWeatherData(lat, lon, placeName);
 };
 
-// // Example usage:
-// fetchCoordinates('Rochdale, Greater Manchester');
-// fetchCoordinates('Rochdale');
-
-// // Example usage:
-// fetchWeatherData(53.6177, -2.1552);
-
-getWeather('Istanbul');
-// getWeather('Rochdale, Greater Manchester');
-// getWeather('Cairo, Egypt');
-// getWeather('Paris, Texas');
+getWeather('Rochdale, Greater Manchester');
