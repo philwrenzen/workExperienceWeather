@@ -1,0 +1,30 @@
+yarn run v1.22.19
+$ node index.js
+{
+  latitude: 53.62,
+  longitude: -2.16,
+  generationtime_ms: 0.0400543212890625,
+  utc_offset_seconds: 0,
+  timezone: 'GMT',
+  timezone_abbreviation: 'GMT',
+  elevation: 134,
+  current_weather_units: {
+    time: 'iso8601',
+    interval: 'seconds',
+    temperature: '°C',
+    windspeed: 'km/h',
+    winddirection: '°',
+    is_day: '',
+    weathercode: 'wmo code'
+  },
+  current_weather: {
+    time: '2025-02-11T12:30',
+    interval: 900,
+    temperature: 4.2,
+    windspeed: 15,
+    winddirection: 60,
+    is_day: 1,
+    weathercode: 61
+  }
+}
+Done in 0.54s.
