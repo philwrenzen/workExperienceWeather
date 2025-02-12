@@ -30,12 +30,43 @@ The following prompts were use to generate the application and the code was mani
 * How do I get the name of the weather from the weathercode in open-meteo?
   * Could you give me some javascript to convert the number to the text?
 
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Yarn](https://yarnpkg.com/) (optional, but recommended)
+
+### Installation
+
+1. Clone the repository:
+  ```sh
+  git clone https://github.com/philwrenzen/workExperienceWeather
+  cd weather-app
+  ```
+
+2. Install the dependencies:
+  Using Yarn:
+  ```sh
+  yarn install
+  ```
+  or using npm:
+  ```sh
+  npm install
+  ```
 ## Running Example
 
 Using Yarn
-`yarn dev`
+```sh
+yarn dev
+```
 
-Using NPM `npm run dev`
+or using NPM 
+```sh
+npm run dev
+```
 
 ## Re-use
 
