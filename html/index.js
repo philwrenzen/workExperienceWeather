@@ -88,15 +88,3 @@ const getWeather = async (placeName) => {
   const { lat, lon } = await fetchCoordinates(placeName);
   return fetchWeatherData(lat, lon, placeName);
 };
-
-// // Example usage:
-// fetchCoordinates('Rochdale, Greater Manchester');
-// fetchCoordinates('Rochdale');
-
-// // Example usage:
-// fetchWeatherData(53.6177, -2.1552);
-
-// getWeather('Istanbul');
-// getWeather('Rochdale, Greater Manchester');
-// getWeather('Cairo, Egypt');
-// getWeather('Paris, Texas');
