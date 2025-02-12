@@ -36,3 +36,11 @@ Using Yarn
 `yarn dev`
 
 Using NPM `npm run dev`
+
+## Re-use
+
+The `/html` folder has an example of this JavaScript being re-used on a simple web page. The code is far from ideal but is a simple demonstration of taking this code and presenting it to a wider audience.
+
+The page was largely built and styled using Copilot in VS Code.
+
+In the same way the example application used Copilot to get the weather, this page also used Copilot to get the code for adding a map to the page using [Leaflet](https://leafletjs.com/).
