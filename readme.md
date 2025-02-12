@@ -79,3 +79,11 @@ The `/html` folder has an example of this JavaScript being re-used on a simple w
 The page was largely built and styled using Copilot in VS Code.
 
 In the same way the example application used Copilot to get the weather, this page also used Copilot to get the code for adding a map to the page using [Leaflet](https://leafletjs.com/).
+
+
+## Limitations and future enhancements
+
+* The location is hardcoded in the `index.js` and would be better as a command line argument
+* Failure to determine latitude and longitude from a place name should be detected and the process interrupted with a message
+* Output is raw JSON and could be improved, coloured, use Unicode symbols (☀, 🌧, ❄), etc
+* No error handling
