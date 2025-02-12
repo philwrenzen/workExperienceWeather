@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed on your machine:
 1. Clone the repository:
   ```sh
   git clone https://github.com/philwrenzen/workExperienceWeather
-  cd weather-app
+  cd workExperienceWeather
   ```
 
 2. Install the dependencies:
