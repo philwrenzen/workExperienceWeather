@@ -10,6 +10,10 @@ The completed example application will:
 * determine the weather type from the weather type code
 * display the weather in the terminal
 
+This was built in JavaScript using NodeJS but could easily be reproduced in any language. The language choice is not important as this is a demonstration of using AI code generation tools and using it to consume real data from the web.
+
+AI code generation was intended as an enabler for this Work Experience project to get around the differing skill levels that may stop candidates from seeing the benefits of their efforts.
+
 ## APIs
 
 These APIs were chosen specifically because they do not require API keys or logins.
